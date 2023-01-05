@@ -132,6 +132,41 @@ table {
 body {
     font-family: 'Open Sans', sans-serif;
     color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: #b7b7a4;
+}
+
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1.5rem;
+    background-color: #ffe8d6;
+    outline: 2px solid black;
+}
+
+.method-table,
+.ingredients-table {
+    outline: 2px solid black;
+}
+
+.navbar {
+    background-color: #6b705c;
+    position: sticky;
+    top: 0;
+}
+
+.navbar>.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: inherit;
+}
+
+.nav-list {
+    display: flex;
+    gap: 12px;
+    margin-left: auto;
 }
 
 .header {
