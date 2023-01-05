@@ -129,6 +129,8 @@ table {
     border-spacing: 0;
 }
 
+/* My CSS code begins here */
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: black;
@@ -145,10 +147,19 @@ body {
     outline: 2px solid black;
 }
 
+a {
+    text-decoration: none;
+    color: #ffe8d6;
+}
+
+/* OUTLINE */
+
 .method-table,
 .ingredients-table {
     outline: 2px solid black;
 }
+
+/* OUTLINE */
 
 .navbar {
     background-color: #6b705c;
@@ -167,6 +178,13 @@ body {
     display: flex;
     gap: 12px;
     margin-left: auto;
+}
+
+#search-icon::before {
+    content: url(./images/search.svg);
+    width: 16px;
+    height: 16px;
+    fill: #ffe8d6;
 }
 
 .header {
